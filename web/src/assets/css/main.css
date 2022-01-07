@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --colors-main: #5AC0DE;
+
+    --colors-backgrounds-main: #242830;
+    --colors-backgrounds-muted: #2C3039;
+    --colors-backgrounds-dark: #1D2026;
+
+    --colors-texts-main: #FFFFFF;
+    --colors-texts-muted: #DCDDDE;
+
+    --colors-others-danger: #EF5350;
+    --colors-others-success: #66BB6A;
+    --colors-others-warning: #F0AD4E;
+}
+
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    box-sizing: border-box;
+    border: 0px;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0px;
+    outline: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+}
+
+body {
+    display: flex;
+    color: var(--colors-texts-main);
+    background-color: var(--colors-backgrounds-main);
+    font-family: "Cairo", sans-serif;
+    letter-spacing: 0.55px;
+    font-size: 14px;
+    height: 100vh;
+    width: 100vw;
+}
+
+#filesafety {
+    display: flex;
+}
