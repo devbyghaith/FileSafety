@@ -1,0 +1,11 @@
+{
+    "System": {
+        "host": "mail.filesafety.co",
+        "port": "465",
+        "secure": true,
+        "auth": {
+            "user": "noreply@filesafety.co",
+            "pass": "YOUR_SMTP_PASSWORD"
+        }
+    }
+}
