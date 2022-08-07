@@ -1,0 +1,14 @@
+{
+    "Host": "0.0.0.0",
+    "Port": 2000,
+
+    "Parser": {
+        "extended": false
+    },
+
+    "Session": {
+        "saveUninitialized": false,
+        "secret": "YOUR_SESSION_SECRET",
+        "resave": false
+    }
+}
