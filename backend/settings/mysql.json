@@ -1,0 +1,7 @@
+{
+    "Data": "filesafety_v3",
+    "Host": "localhost",
+    "Port": 3306,
+    "User": "root",
+    "Pass": ""
+}
